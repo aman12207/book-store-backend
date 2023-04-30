@@ -21,10 +21,6 @@ dotevn.config({path : 'config/config.env'})
 // connect Database
 connectDB();
 
-app.route.get('/',(req,res)=>{
-    res.send("<h1>Working Fine</h1>")
-})
-
 app.use(errorMiddleware);       // using error middleware
 
 app.listen(process.env.PORT || 4000,(req,res)=>{
