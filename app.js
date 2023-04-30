@@ -24,5 +24,5 @@ connectDB();
 app.use(errorMiddleware);       // using error middleware
 
 app.listen(process.env.PORT || 4000,(req,res)=>{
-    console.log(`Server is running on port ${process.env.PORT_NO}`);
+    console.log(`Server is running on port ${process.env.PORT}`);
   })
