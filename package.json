@@ -18,5 +18,5 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.5"
   },
-  "postinstall": "npm install express"
+  "postinstall": "npm install"
 }
